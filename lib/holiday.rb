@@ -105,7 +105,7 @@ def all_holidays_with_bbq(holiday_hash)
         if arr.include?(holiday)
           next
         else
-        holiday
+    
         arr.unshift(holiday)
       end
     end
