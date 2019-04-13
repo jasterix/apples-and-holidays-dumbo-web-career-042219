@@ -101,7 +101,7 @@ def all_holidays_with_bbq(holiday_hash)
   arr = []
   holiday_hash.collect {|season, holiday|
     holiday.collect {|holiday, lists|
-      if lists.include?"BBQ" & holiday.value!= nil
+      if lists.include?"BBQ" & holiday.values!= nil
         holiday
         
       end
