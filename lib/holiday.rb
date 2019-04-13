@@ -103,8 +103,8 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.collect {|holiday, lists|
       if lists.include?"BBQ"
         holiday
-
       end
+      delete_if { |k, v| v.nil? }
     }
   }
 end
