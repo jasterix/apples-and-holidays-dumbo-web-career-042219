@@ -104,7 +104,7 @@ def all_holidays_with_bbq(holiday_hash)
       if lists.include?"BBQ"
         arr.unshift(holiday)
       end
-    arr.flatten.compact
+    return arr.flatten.compact
     }
   }
 end
