@@ -105,9 +105,9 @@ def all_holidays_with_bbq(holiday_hash)
         holiday
         arr.unshift(holiday)
       end
-    arr.uniq { |h| h.values }
+    arr.uniq
     }
-    
+    arr.topics.uniq { |h| h.values }
   }
 end
 
