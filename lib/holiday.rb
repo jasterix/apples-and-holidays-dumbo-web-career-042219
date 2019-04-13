@@ -101,7 +101,7 @@ def all_holidays_with_bbq(holiday_hash)
   arr = []
   holiday_hash.each {|holiday, lists|
     if lists.include?"BBQ"
-        arr << lists
+        arr << holiday
     end
   }
 end
