@@ -102,11 +102,9 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_supplies.collect {|season, holiday|
     holiday.collect {|holiday, lists|
       if lists.include?"BBQ"
-        if arr.include?holiday
-      else
         arr.unshift(holiday)
+        arr.flatten
       end
-    end
     arr.uniq
     }
   }
