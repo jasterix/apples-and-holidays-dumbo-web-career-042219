@@ -106,6 +106,7 @@ def all_holidays_with_bbq(holiday_hash)
         holiday
         arr.unshift(holiday)
       end
+    end
     arr.to_a
     }
     arr.flatten
