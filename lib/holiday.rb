@@ -104,8 +104,9 @@ def all_holidays_with_bbq(holiday_hash)
       if lists.include?"BBQ"
         arr {holiday)
       end
-    arr.unique
+    
     }
+    arr.unique
   }
 end
 
