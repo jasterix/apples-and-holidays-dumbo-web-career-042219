@@ -66,7 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
     season = season.join(": ")
   }
     holiday.each {holiday, supplies|
-      supplies = supplies
+      supplies = supplies.join(", ")
   }
 
 end
